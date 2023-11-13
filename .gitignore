@@ -1,0 +1,43 @@
+venv
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+node_modules/
+.idea/
+.vscode/
+
+# Compiled Go binary
+/bin/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore local configuration files
+.idea
+.vscode
+
+# Dependency directories
+/vendor/
+/go.sum
+
+# Logs
+/log/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Go application environment file
+.env
